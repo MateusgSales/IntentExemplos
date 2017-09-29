@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                     .setAction("Action", null).show()
         }
 
-        val btnCam = findViewById(R.id.buttonCall) as Button
+        val btnCam = findViewById(R.id.buttonCam) as Button
         btnCam.setOnClickListener { capturePhoto() }
 
         val btnContact = findViewById(R.id.buttonContact) as Button
